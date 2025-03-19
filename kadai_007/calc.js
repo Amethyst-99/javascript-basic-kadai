@@ -1,0 +1,16 @@
+// 変数の宣言
+let num = 15;
+
+// 変数が倍数かどうか判定
+if (num % 3 == 0 && num % 5 != 0) {
+    console.log("3の倍数です");
+}
+else if (num % 5 == 0 && num % 3 != 0) { 
+    console.log("5の倍数です");
+}
+else if (num % 3 == 0 && num % 5 == 0) { 
+    console.log("3と5の倍数です");
+}
+else {
+    console.log(num);
+}
